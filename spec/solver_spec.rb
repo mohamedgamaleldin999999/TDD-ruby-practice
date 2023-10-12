@@ -6,7 +6,7 @@ describe Solver do
       @solver = Solver.new
     end
 
-    it 'should calculate factorial of ceratin input as integer number ' do
+        it 'should calculate factorial of ceratin input as integer number ' do
       expect(@solver.factorial(2)).to eq 2
       expect(@solver.factorial(5)).to eq 120
       expect(@solver.factorial(10)).to eq 3_628_800
