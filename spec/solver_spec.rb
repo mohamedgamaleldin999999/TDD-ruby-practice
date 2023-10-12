@@ -1,4 +1,4 @@
-require '../solver'
+require '../solver.rb'
 
 describe Solver do
   context 'Solver methods should return correct result' do
